@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 200px;
+    margin-top: 250px;
+}
+
+.tasbeh {
+    width: 200px;
+    background-color: #777;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.number-display {
+    margin: auto;
+    width: 60%;
+    height: 50px;
+    background: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.number {
+    font-size: 32px;
+
+}
+
+.add-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid green; 
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.clear-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 3px;
+    border: #000;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.over-btn {
+    width: 60px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
